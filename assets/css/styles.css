@@ -10,6 +10,7 @@
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
+    
   }
 
   .floatRight {
@@ -23,11 +24,25 @@
   }
 
   .price{
-    font: 140px Arial, sans-serif; 
+    font: 80px Arial, sans-serif; 
   }
 
   .ppgLabel{
     font: 50px Arial, sans-serif; 
   }
-
-  
+  .container {
+    width: 270px;
+    height: 250px;
+    display: inline-block;
+ }
+ .tag {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    z-index: 1000;
+    padding: 0px;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    }
